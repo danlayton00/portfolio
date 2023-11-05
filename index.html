@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+  <head>
+    <title>Gatehouse Dashboard</title>
+    <link rel="stylesheet" href="SaltSpringsGatehouse.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      function VisitorList()
+      {
+        alert("hello");
+        xmlhttp.open("GET", "SaltSpringsGatehouse.php", true);
+        xmlhttp.send();
+      }
+    </script>
+  </head>
+  <body>
+    <div id = "header">
+      <img src = 'images/ssra_logo.png'>
+      <br />
+      Gatehouse Dashboard
+      <hr />
+    </div>
+    <div id = "nav">
+      <button class = "button">Home</button>
+      <button class = "button" onclick="alert('hi')">Visitor List</button>
+      <button class = "button">Rental List</button>
+      <button class = "button">Owner Roster</button>
+      <br />
+      <br />
+      <hr />
+    </div>
+    <div id = "main">
+      <table>
+        <tr>
+            <th>Today's Visitor List</th>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <th>Today's Renter Check Ins</th>
+        </tr>
+      </table>
+    </div>
+    <div id = "footer">
+        <hr />
+        Created by Daniel Layton.
+    </div>
+  </body>
+</html>
